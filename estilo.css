@@ -1,0 +1,32 @@
+main{
+    border: 1px solid #F2CBC2;
+    background-color: #F9E7E0;
+    box-shadow: 3px 3px 3px 3px #ABB4BA;
+    width: 450px;
+}
+
+.casa{
+    border: 1px solid #F2CBC2;
+    width: 150px;
+    height: 150px;
+    font-size: 80px;
+    color: #CCD6D2;
+    text-align: center;
+    line-height: 150px;
+}
+.linha{
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+#resultado {
+    text-align: center;
+    height: 20px;
+    color: black;
+    background-color: #AFB4A5;
+}
