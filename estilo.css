@@ -3,6 +3,7 @@ main{
     background-color: #F9E7E0;
     box-shadow: 3px 3px 3px 3px #ABB4BA;
     width: 450px;
+    margin-top: 50px;
 }
 
 .casa{
@@ -23,10 +24,33 @@ body{
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    background-image: url("fundo.webp")
 }
 #resultado {
     text-align: center;
     height: 20px;
     color: black;
-    background-color: #AFB4A5;
+    background-color: #abb4ba86;
+    margin-top: 20px;
+    border-radius: 2px 2px;
+    font-size: 18px;
+}
+#casa-botao {
+    height: 70px;
+    width: 120px;
+    background-color: #F9E7E0;
+    border: 2px solid #F2CBC2;
+    margin-top: 20px;
+    box-shadow: 2px 2px 2px 2px #ABB4BA;
+    border-radius: 10px 10px;
+    display: none;
+}
+#placar {
+    text-align: center;
+    border: 2px solid #F2CBC2;
+    background-color: #F9E7E0;
+    width: 300px;
+    margin-top: 20px;
+    box-shadow: 2px 2px 2px 2px #ABB4BA;
+    display: none;
 }
